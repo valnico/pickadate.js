@@ -227,7 +227,20 @@
 .picker__footer {
   text-align: center;
 }
-.picker__button--today,
+
+.picker__button--today {
+  border: 1px solid #333;
+  border-radius: 5px;
+  background: #ffffff;
+  font-size: .8em;
+  padding: .66em 0;
+  font-weight: bold;
+  width: 100%;
+  display: inline-block;
+  vertical-align: bottom;
+  margin-bottom: 10px;
+}
+
 .picker__button--clear,
 .picker__button--close {
   border: 1px solid #ffffff;
